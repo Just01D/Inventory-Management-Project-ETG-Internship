@@ -13,7 +13,7 @@ It is a python file of the IMS.
 ## Layout of the system
 ### Adding to the inventory
 #### ADD
-You can add a new product to your inventory. The new product will get saved in the inventory with the date and the time of its inclusion. If a product is already in the inventory and you try to add it in the inventory again you will get the message that the product is already there in the inventory.
+You can add a new product to your inventory. The new product will get saved in the inventory with the date and the time of its inclusion. If a product is already in the inventory and you try to add it in the inventory again you will get the message that the product is already there in the inventory. It also doesn't allow the user to store a negative value for the quantity.
 
 #### EDIT
 The specifications of a product already in the inventory like name, quantity can be changed and it will be updated in the inventory. For example, if a new batch of product comes in you can update its quantity in the inventory.
