@@ -13,7 +13,7 @@ It is a python file of the IMS.
 ## Layout of the system
 ### Adding to the inventory
 #### ADD
-You can add a new product to your inventory. The new product will get saved in the inventory with the date and the time of its inclusion. If a product is already in the inventory and you try to add it in the inventory again you will get the message that the product is already there in the inventory. It also doesn't allow the user to store a negative value for the quantity.
+You can add a new product to your inventory. The new product will get saved in the inventory(particularly in record.json) with the date and the time of its inclusion. If a product is already in the inventory and you try to add it in the inventory again you will get the message that the product is already there in the inventory. It also doesn't allow the user to store a negative value for the quantity.
 
 #### EDIT
 The specifications of a product already in the inventory like name, quantity can be changed and it will be updated in the inventory. For example, if a new batch of product comes in you can update its quantity in the inventory.
@@ -38,7 +38,7 @@ Displays all the products you have selected to buy from the inventory.
 This function helps us to remove a product from the cart and it accordingly updates the inventory and your cart about the deletion of the product from your cart i.e if you remove a roduct from the cart the quatity of the product in the inventory will be updated.
 
 #### Checkout
-It will show you your cart and produce a bill of the products in your cart. The bill will be timestamped and this is done my importing the datetime module.
+It will show you your cart and produce a bill of the products in your cart. The bill will be timestamped and this is done my importing the datetime module. All the products that was bought is also saved in the sales.json file too.
 
 #### Help
 As it is a menu driven IMS, this functionality helps us to see all the option on the menu.
